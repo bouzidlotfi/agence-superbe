@@ -1,0 +1,46 @@
+#presentation{
+    width:100%;
+    height:80vh;
+    background-color:#f5f7dc;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  font-family:"Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+font-weight: 500;
+font-size: 14px;
+color:#050505;
+}
+.preCont{
+    width:90%;
+    height:80%;
+    display:flex;
+}
+#Pdesc{
+    height:100%;
+    width: 60%;
+    border-top:2px solid #778965;
+    border-left:2px solid #778965;
+    border-bottom:2px solid #778965;
+}
+#desc1{
+    height:46%;
+    text-align:left;
+    padding-top: 30px; 
+    padding-left: 20px; 
+    font-size:1.2em;
+}
+#desc2{
+    height:54%;
+    font-size: 130px;
+    letter-spacing:4px;
+    font-family: 'Sriracha', cursive;
+    color:#DC9063;
+}
+#Ppic{
+    height:100%;
+    width: 40%;
+    background-color:rgb(152, 100, 100);
+    background-image: url(../Service/picn2.jpg); 
+    background-position: center;
+    background-size: cover;  
+}

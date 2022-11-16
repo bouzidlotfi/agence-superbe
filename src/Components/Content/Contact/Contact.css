@@ -1,0 +1,71 @@
+#contact{
+    width:100%;
+    height:60vh;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    background-color: #f5f7dc;
+    font-size: 18px;
+}
+
+#ConContact{
+    width:80%;
+    height:80%;
+    display:flex;
+    justify-content:space-between;
+}
+
+#sieges{
+    width:40%;
+    height:90%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#coord{
+    width:30%;
+    height:90%;
+    border-left: 2px solid #DC9063;
+    border-right: 2px solid #DC9063;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#reseau{
+    width:30%;
+    height:90%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#rsx{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style-type: none;
+}
+#rsx li{
+    list-style-type: none;
+    color: black;
+}
+#nums{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style-type: none;
+}
+#nums li{
+    cursor: pointer;
+}
+#adress{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style-type: none;
+}

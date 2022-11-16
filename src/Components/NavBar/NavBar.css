@@ -1,0 +1,41 @@
+.navBar{
+    width:100%;
+    height:12vh;
+    background-color: #f5f7dc;
+    color: #DC9063;
+    display: flex;
+    justify-content: center;
+    font-family: 'Sriracha', cursive;
+    position: sticky;
+    top: 0px;
+    z-index:2;
+}
+
+.NavContent{
+    width:80%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight:bold;
+    letter-spacing: 2px;
+}
+#NavItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    list-style-type: none;
+    font-size: 20px;
+}
+#NavItems li{
+    cursor: pointer;
+    color: #DC9063;
+}
